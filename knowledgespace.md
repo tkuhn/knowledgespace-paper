@@ -15,7 +15,9 @@ Knowledge Space
 - People can interact with the knowledge space via different kinds of web-based *knowledge services*
 - *Publishing services* allow users to permanently publish their packages to make their knowledge available to the world
 - *Lookup services* return the content of a knowledge package for a given package identifier
-- Different kinds of *query services* return individual knowledge package references or aggregated values for specific parametrizable queries
+- Different kinds of *query services* return knowledge package references or aggregated values for specific parametrizable queries on specified subsets of all published knowledge packages
+- A knowledge package is considered published once it is openly available on several independent web servers in a setting that allows for and encourages further replication and archiving by other servers
+- Relevant entities, including knowledge package creators and knowledge services, are introduced to the knowledge space by publishing knowledge packages that describe them
 
 
 # Knowledge Service Nodes
