@@ -10,7 +10,7 @@ Knowledge Space
 - These statements are expressed and communicated in small *knowledge packages*, making each package individually reusable and referenceable
 - Each knowledge package comes with rich provenance and metadata, including information about who created it
 - Each knowledge package is represented by a unique and unforgeable content-based identifier
-- A set of knowledge packages can be defined by linking the set identifier to the knowledge package identifiers of its elements and by publishing these links as knowledge packages themselves
+- A *knowledge package set* is defined by linking the set identifier to the knowledge package identifiers of its elements and by publishing these links as knowledge packages themselves
 - Knowledge packages can include a digital signature of their creator
 - Users of the knowledge space are called *knowledge agents* and include people as well as automated agents
 - Knowledge agents can interact with the knowledge space via different kinds of web-based *knowledge services*
@@ -19,7 +19,9 @@ Knowledge Space
 - A *query service* is a kind of knowledge service that returns simple or aggregated values by executing a specified query on a specified subset of the published knowledge packages for the provided parameter values
 - A knowledge package is considered published once it is openly available on several independent web servers in a setting that allows for and encourages further replication and archiving by other servers
 - Relevant entities, including knowledge agents and knowledge services, are introduced to the knowledge space by publishing knowledge packages that describe them, which are called *introduction records*
+- An introduction record for a knowledge agent should include the public keys the knowledge agent uses to sign knowledge packages
 - Knowledge agents can provide assessments of entities by expressing a qualified link (such as a link representing approval) to an introduction record of the assessed entity, and by publishing this link as a knowledge package
+- As a starting point for establishing trust, a *knowledge setting* is knowledge package that refers to a collection of introduction records of authoritative knowledge agents and knowledge services
 
 
 # Knowledge Service Nodes
