@@ -6,9 +6,9 @@ Knowledge Space
 # Principles
 
 - In the *knowledge space*, everything is digitally expressed and communicated in formal logic, in a manner that humans can understand and computers can interpret
-- These formal logic statements are written using a universal and extensible vocabulary, so any two statements can be interpreted together and there are no restrictions in what can be expressed
-- These statements are expressed and communicated in small *knowledge packages*, making each package individually reusable and referenceable
-- Each knowledge package comes with rich provenance and metadata, including information about who created it
+- The formal logic statements in the knowledge space are written using a universal and extensible vocabulary, so any two statements can be interpreted together and there are no restrictions in what can be expressed
+- Statements in the knowledge space are expressed and communicated in small *knowledge packages*, making each package individually reusable and referenceable
+- A knowledge package comes with rich provenance and metadata, including information about who created it
 - Each knowledge package is represented by a unique and unforgeable content-based identifier
 - A *knowledge package collection* is expressed by linking a collection identifier to the knowledge package identifiers of the elements of the collection and by publishing these links in knowledge packages themselves
 - Users of the knowledge space are called *knowledge agents* and include people as well as automated agents
