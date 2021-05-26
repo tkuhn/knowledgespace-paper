@@ -7,17 +7,19 @@ Knowledge Space
 
 - In the *knowledge space*, everything is digitally expressed and communicated in formal logic, in a manner that humans can understand and computers can interpret
 - These formal logic statements are written using a universal and extensible vocabulary, so any two statements can be interpreted together and there are no restrictions in what can be expressed
-- These statements are expressed and communicated in small atomic *knowledge packages*, making each package individually reusable and referenceable
+- These statements are expressed and communicated in small *knowledge packages*, making each package individually reusable and referenceable
 - Each knowledge package comes with rich provenance and metadata, including information about who created it
-- Knowledge packages can include a digital signature of their creator
 - Each knowledge package is represented by a unique and unforgeable content-based identifier
-- Knowledge packages are thereby immutable, and any change of the content leads to a new knowledge package
-- People can interact with the knowledge space via different kinds of web-based *knowledge services*
-- *Publishing services* allow users to permanently publish their packages to make their knowledge available to the world
-- *Lookup services* return the content of a knowledge package for a given package identifier
-- Different kinds of *query services* return knowledge package references or aggregated values for specific parametrizable queries on specified subsets of all published knowledge packages
+- A set of knowledge packages can be defined by linking the set identifier to the knowledge package identifiers of its elements and by publishing these links as knowledge packages themselves
+- Knowledge packages can include a digital signature of their creator
+- Users of the knowledge space are called *knowledge agents* and include people as well as automated agents
+- Knowledge agents can interact with the knowledge space via different kinds of web-based *knowledge services*
+- A *publishing service* is a kind of knowledge service that allows knowledge agents to permanently publish their packages to make their knowledge available to the world
+- A *lookup service* is a kind of knowledge service that returns the content of a knowledge package for a given package identifier
+- A *query service* is a kind of knowledge service that returns simple or aggregated values by executing a specified query on a specified subset of the published knowledge packages for the provided parameter values
 - A knowledge package is considered published once it is openly available on several independent web servers in a setting that allows for and encourages further replication and archiving by other servers
-- Relevant entities, including knowledge package creators and knowledge services, are introduced to the knowledge space by publishing knowledge packages that describe them
+- Relevant entities, including knowledge agents and knowledge services, are introduced to the knowledge space by publishing knowledge packages that describe them, which are called *introduction records*
+- Knowledge agents can provide assessments of entities by expressing a qualified link (such as a link representing approval) to an introduction record of the assessed entity, and by publishing this link as a knowledge package
 
 
 # Knowledge Service Nodes
