@@ -16,7 +16,7 @@ Knowledge Space
 - Knowledge agents can interact with the knowledge space via different kinds of online *knowledge services*
 - Relevant entities, including knowledge agents and knowledge services, are introduced to the knowledge space by publishing knowledge packages that describe them, which are called *introduction records*
 - An introduction record for a knowledge agent should include the public keys the knowledge agent uses to sign knowledge packages
-- An introduction record of a knowledge service specifies the nature of the service, the kind of knowledge packages it covers, and the conditions under which knowledge agents are allowed to use it
+- An introduction record of a knowledge service specifies the nature of the service, the kind of knowledge packages it covers, and the conditions under which knowledge agents may use it
 - A *publishing service* is a kind of knowledge service that allows knowledge agents to permanently publish knowledge packages
 - A *lookup service* is a kind of knowledge service that returns the content of a knowledge package for a provided package identifier
 - A *query service* is a kind of knowledge service that returns data, possibly aggregated, from published knowledge packages by executing a specified query for the provided parameter values
